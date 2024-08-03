@@ -27,6 +27,12 @@ section {
     display: inline-block; /* Aligns the containers side by side */
     text-align: center;
     line-height: 200px; /* Vertically centers the text */
+    background-color: orange;
+}
+.project:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 h1, h2 {
@@ -42,4 +48,8 @@ footer {
     background-color: #f4f4f4;
     text-align: center;
     padding: 10px;
+}
+footer p:hover{
+    color: red;
+    cursor: pointer;
 }
